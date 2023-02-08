@@ -20,4 +20,6 @@ public interface UserMapper {
     int update(User user);
 
     int delete(String id);
+
+
 }
