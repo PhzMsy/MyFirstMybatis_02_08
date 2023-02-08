@@ -1,12 +1,5 @@
 package org.msy.servlet;
 
-import com.alibaba.fastjson.JSON;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-import org.msy.bean.User;
-import org.msy.mapper.UserMapper;
 import org.msy.service.UserService;
 import org.msy.service.UserServiceImpl;
 
@@ -16,8 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+
 
 /**
  * @author Msy
@@ -46,24 +38,6 @@ public class UserServlet extends HttpServlet {
         }
 
 
-
-
-
     }
 
-    private void update(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-
-    }
-
-    private void insert(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-
-    }
-
-    private void queryById(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-
-    }
-
-    private void query(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-
-    }
 }
