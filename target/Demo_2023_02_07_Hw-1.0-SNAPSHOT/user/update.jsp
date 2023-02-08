@@ -24,7 +24,6 @@
             success:function (resp){
                 console.log("进入到success中了")
                 console.log(resp.id,resp.username,resp.password,resp.sex,resp.birthday,resp.address,resp.hobby)
-
                 $("#id").val(resp.id);
                 $("#username").val(resp.username);
                 $("#password").val(resp.password);
@@ -94,7 +93,7 @@
 
         <tr>
             <td>
-                <input type="button" value="添加" id="btn">
+                <input type="button" value="修改" id="btn">
             </td>
         </tr>
     </table>
